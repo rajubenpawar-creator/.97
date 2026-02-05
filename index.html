@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>AI Free Tools – Image Compressor Online</title>
+  <meta name="description" content="Free online image compressor. Reduce image size without losing quality." />
+  <meta name="keywords" content="image compressor online, free tools, ai free tools" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="background"></div>
+
+<header class="header">
+  <h1>AI Free Tools</h1>
+  <p>Fast & free online tools you can trust</p>
+</header>
+
+<main class="tools-section">
+
+  <h2>Image Compressor</h2>
+
+  <!-- WORKING TOOL -->
+  <div class="tool-card">
+    <input type="file" id="imageInput" accept="image/*">
+    
+    <label>Compression Quality</label>
+    <input type="range" id="quality" min="10" max="90" value="60">
+
+    <button onclick="compressImage()">Compress Image</button>
+
+    <a id="downloadLink" style="display:none;">Download Image</a>
+  </div>
+
+  <h2 style="margin-top:50px;">More Tools (Coming Soon)</h2>
+
+  <div class="tools-grid">
+    <div class="tool-card">
+      <h3>PDF to Word</h3>
+      <p>Convert PDF files to Word documents.</p>
+      <button onclick="openTool()">Use Tool</button>
+    </div>
+
+    <div class="tool-card">
+      <h3>Meme Maker</h3>
+      <p>Create memes online easily.</p>
+      <button onclick="openTool()">Use Tool</button>
+    </div>
+
+    <div class="tool-card">
+      <h3>Video to MP3</h3>
+      <p>Convert video to MP3 audio.</p>
+      <button onclick="openTool()">Use Tool</button>
+    </div>
+  </div>
+
+</main>
+
+<footer class="footer">
+  © 2026 AI Free Tools
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
