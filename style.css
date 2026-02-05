@@ -1,0 +1,15 @@
+input[type="file"] {
+  margin-bottom: 15px;
+}
+
+input[type="range"] {
+  width: 100%;
+  margin: 10px 0 20px;
+}
+
+#downloadLink {
+  display: inline-block;
+  margin-top: 15px;
+  color: #00c6ff;
+  text-decoration: underline;
+}
